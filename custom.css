@@ -1,0 +1,52 @@
+
+
+@font-face {
+    font-family: linuxLibertine;
+    src: url("linux-libertine/LinLibertine_R.otf") format("opentype");
+}
+
+@font-face {
+    font-family: linuxLibertine;
+    font-weight: bold;
+    src: url("linux-libertine/LinLibertineRZ.otf") format("opentype");
+}
+
+@font-face {
+    font-family: linuxLibertine;
+    font-weight: bold;
+    src: url("linux-libertine/LinLibertineRI.otf") format("opentype");
+}
+
+@font-face {
+    font-family: linuxLibertine;
+    font-weight: bold;
+    font-style: italic;
+    src: url("linux-libertine/LinLibertineRZI.otf") format("opentype");
+}
+
+body{
+  background-color: #222233;
+}
+
+.dialogue-box {
+  font-size: 20;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.8em;
+  padding-bottom: 0.1em;
+  min-height: 9em;
+  font-family: linuxLibertine;
+  background-color: #111111;
+  border-width: 5px !important;
+}
+
+.dialogue {
+  color: #EEEEEE;
+}
+
+.scene-box {
+  padding-left: 0px;
+  padding-right: 0px;
+  border-width: 5px !important;
+  border-bottom: none !important;
+}
